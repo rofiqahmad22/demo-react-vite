@@ -17,11 +17,11 @@ export function Counter() {
 
   return (
     <div className="flex gap-3">
-      <button onClick={decrement} className="bg-teal-500 p-1">
+      <button onClick={decrement} className="bg-teal-500 p-1 rounded-sm">
         -
       </button>
       <p>{counter}</p>
-      <button onClick={increment} className="bg-teal-500 p-1">
+      <button onClick={increment} className="bg-teal-500 p-1 rounded">
         +
       </button>
     </div>
