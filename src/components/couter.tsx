@@ -16,13 +16,13 @@ export function Counter() {
   });
 
   return (
-    <div>
-      <button onClick={increment} className="bg-teal-500 p-2">
-        +
+    <div className="flex gap-3">
+      <button onClick={decrement} className="bg-teal-500 p-1">
+        -
       </button>
       <p>{counter}</p>
-      <button onClick={decrement} className="br-teal-500 p-2">
-        -
+      <button onClick={increment} className="bg-teal-500 p-1">
+        +
       </button>
     </div>
   );

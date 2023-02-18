@@ -1,4 +1,5 @@
 import { Button } from "./components/button";
+import { Counter } from "./components/couter";
 import { Description } from "./components/descripton";
 import { Profile } from "./components/profile";
 import { Profiles } from "./components/profles";
@@ -7,12 +8,9 @@ export default function App() {
   return (
     <div>
       <header>
-        <h1 className="text-3xl font-bold">My Profile</h1>
+        <h1 className="text-3xl font-bold">Counter</h1>
       </header>
-      <Profile name="Rofiq Ahmad" />
-      <Description />
-      <Button />
-      <Profiles />
+      <Counter />
     </div>
   );
 }
