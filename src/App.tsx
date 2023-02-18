@@ -9,7 +9,7 @@ export default function App() {
       <header>
         <h1 className="text-3xl font-bold">My Profile</h1>
       </header>
-      <Profile />
+      <Profile name="Rofiq Ahmad" />
       <Description />
       <Button />
       <Profiles />
