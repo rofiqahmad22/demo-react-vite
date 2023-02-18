@@ -1,8 +1,4 @@
-import { Button } from "./components/button";
-import { Counter } from "./components/couter";
-import { Description } from "./components/descripton";
-import { Profile } from "./components/profile";
-import { Profiles } from "./components/profles";
+import { Age } from "./components/age";
 
 export default function App() {
   return (
@@ -10,7 +6,7 @@ export default function App() {
       <header>
         <h1 className="text-3xl font-bold">Counter</h1>
       </header>
-      <Counter />
+      <Age />
     </div>
   );
 }
