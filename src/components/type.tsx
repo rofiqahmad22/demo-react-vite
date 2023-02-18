@@ -9,6 +9,7 @@ export function Myinput() {
 
   return (
     <>
+      <h1 className="text-3xl font-bold">Input</h1>
       <input value={text} onChange={handleChange} />
       <p>You Typed: {text}</p>
       <button onClick={() => setText("Hello")}>Reset</button>

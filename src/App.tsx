@@ -1,4 +1,6 @@
 import { Age } from "./components/age";
+import { MyCheckbox } from "./components/checkbox";
+import { Form } from "./components/two-variables";
 import { Myinput } from "./components/type";
 
 export default function App() {
@@ -9,6 +11,8 @@ export default function App() {
       </header>
       <Age />
       <Myinput />
+      <MyCheckbox />
+      <Form />
     </div>
   );
 }
