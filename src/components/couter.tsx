@@ -1,5 +1,5 @@
-e;
 import { useEffect, useState } from "react";
+
 export function Counter() {
   const [counter, setCounter] = useState(0);
 
